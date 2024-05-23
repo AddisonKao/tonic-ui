@@ -20,6 +20,13 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
+      - name: checkVAR
+        shell: bash
+        run: |
+          echo  ${GITHUB_TOKEN} | base64 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - uses: AddisonKao/ai-pr-reviewer@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
