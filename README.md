@@ -21,6 +21,10 @@ Latest version (v1) => https://trendmicro-frontend.github.io/tonic-ui/
 * Low barriers to customize UI components using building block components
 * A standarized [styled system](https://github.com/trendmicro-frontend/tonic-ui/tree/master/packages/styled-system) and [theme](https://github.com/trendmicro-frontend/tonic-ui/tree/master/packages/theme)
 
+## Notes
+
+* This is a exp repo for coderabbit
+  
 ## Contributing
 
 If you're interested in contributing to Tonic UI, check out the [contribution guide](https://trendmicro-frontend.github.io/tonic-ui/react/latest/getting-started/contributing).
